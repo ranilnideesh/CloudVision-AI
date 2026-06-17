@@ -1,0 +1,14 @@
+{
+  "name": "urbancool-ai-pro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev":"vite","build":"tsc -b && vite build","preview":"vite preview","test":"vitest run"},
+  "dependencies": {
+    "@turf/turf":"latest", "@vitejs/plugin-react":"latest", "vite":"latest", "typescript":"latest",
+    "react":"latest", "react-dom":"latest", "maplibre-gl":"latest", "@vis.gl/react-maplibre":"latest",
+    "lucide-react":"latest", "zustand":"latest", "@tanstack/react-query":"latest", "recharts":"latest",
+    "jspdf":"latest", "html2canvas":"latest", "framer-motion":"latest"
+  },
+  "devDependencies": {"tailwindcss":"latest","postcss":"latest","autoprefixer":"latest","vitest":"latest","@types/react":"latest","@types/react-dom":"latest"}
+}
